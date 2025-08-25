@@ -270,14 +270,14 @@ export default function Portfolio() {
 
         {/* Navigation Tabs */}
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="flex flex-col sm:grid sm:grid-cols-3 w-full mb-6 sm:mb-8 bg-white dark:bg-gray-900 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-1 gap-2 overflow-x-auto">
-            <TabsTrigger value="projects" className="text-sm sm:text-base font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200 hover:scale-105 rounded-lg data-[state=active]:bg-blue-50 dark:data-[state=active]:bg-blue-900/20 data-[state=active]:text-blue-600 dark:data-[state=active]:text-blue-400">
+          <TabsList className="flex flex-row w-full mb-6 sm:mb-8 bg-white dark:bg-gray-900 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-1 gap-2 overflow-x-auto">
+            <TabsTrigger value="projects" className="min-w-[100px] text-sm sm:text-base font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200 hover:scale-105 rounded-lg data-[state=active]:bg-blue-50 dark:data-[state=active]:bg-blue-900/20 data-[state=active]:text-blue-600 dark:data-[state=active]:text-blue-400">
               Projects
             </TabsTrigger>
-            <TabsTrigger value="experience" className="text-sm sm:text-base font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200 hover:scale-105 rounded-lg data-[state=active]:bg-blue-50 dark:data-[state=active]:bg-blue-900/20 data-[state=active]:text-blue-600 dark:data-[state=active]:text-blue-400">
+            <TabsTrigger value="experience" className="min-w-[100px] text-sm sm:text-base font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200 hover:scale-105 rounded-lg data-[state=active]:bg-blue-50 dark:data-[state=active]:bg-blue-900/20 data-[state=active]:text-blue-600 dark:data-[state=active]:text-blue-400">
               Experience
             </TabsTrigger>
-            <TabsTrigger value="tools" className="text-sm sm:text-base font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200 hover:scale-105 rounded-lg data-[state=active]:bg-blue-50 dark:data-[state=active]:bg-blue-900/20 data-[state=active]:text-blue-600 dark:data-[state=active]:text-blue-400">
+            <TabsTrigger value="tools" className="min-w-[100px] text-sm sm:text-base font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200 hover:scale-105 rounded-lg data-[state=active]:bg-blue-50 dark:data-[state=active]:bg-blue-900/20 data-[state=active]:text-blue-600 dark:data-[state=active]:text-blue-400">
               Tools
             </TabsTrigger>
           </TabsList>
